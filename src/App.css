@@ -1,0 +1,54 @@
+.container _{
+  display: block;
+  border-style: solid 1px #23252C;
+  width: 550px;
+  height: 868px;
+  margin: 53px 65px;
+  background: #23252C;
+  align-items: center;
+}
+
+.card {
+  box-sizing: border-box;
+  display: inline-flex;
+  width: 317px;
+  height: 780px;
+  margin: 44px 116px;
+  align-items: center;
+  background: #918E9B;
+}
+
+.profile-image {
+  width: 317px;
+  height: 317px;
+}
+
+.pers-info {
+  text-align: center;
+  font-family: Inter, sans-serif;
+  background: #1A1B21;
+}
+
+.pers-info > h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.pers-info > h4 {
+  font-size: 12.8px;
+  font-weight: 400;
+  color: #F3BF99;
+
+}
+
+.website {
+  font-weight: 400;
+  font-size: 10.24px;
+  text-decoration: none;
+  color: #F5F5F5;
+}
+
+.website:hover {
+  text-decoration: underline;
+}
