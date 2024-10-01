@@ -1,15 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client'
 import './App.css';
 import PersonalInfo from './components/personal-info.js'
-import ProfileImage from './components/profile-image'
+import About from './components/about.js'
+import Interests from './components/interests.js'
+
 
 function App() {
   return (
     <div className="App container">
       <div className = "card">
-        <ProfileImage />
         <PersonalInfo />
+        <About />
+        <Interests />
       </div>
     </div>
   );
