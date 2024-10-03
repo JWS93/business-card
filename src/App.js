@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
-import PersonalInfo from './components/personal-info.js'
-import About from './components/about.js'
-import Interests from './components/interests.js'
+import PersonalInfo from './components/personal-info'
+import About from './components/about'
+import Interests from './components/interests'
+import Footer from './components/footer'
 
 
 
@@ -13,6 +14,7 @@ function App() {
         <PersonalInfo />
         <About />
         <Interests />
+        <Footer />
       </div>
     </div>
   );

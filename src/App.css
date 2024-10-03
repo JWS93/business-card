@@ -21,6 +21,8 @@
 .profile-image {
   width: 317px;
   height: 317px;
+  border-radius: 5px 5px 0 0;
+  border: none;
 }
 
 .pers-info {
@@ -29,6 +31,7 @@
   background: #1A1B21;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+  border: none;
 }
 
 .pers-info > h2 {
@@ -57,11 +60,14 @@
 
 .btn {
   max-width: 115px;
+  height: 34px;
 }
 
 .about {
   background-color: #1A1B21;
   width: 315px;
+  height: auto;
+  border: none;
 }
 
 .about--h {
@@ -81,6 +87,8 @@
 .interests {
   background-color: #1A1B21;
   width: 315px;
+  height: auto;
+  border: none;
 }
 
 .interests--h {
@@ -98,5 +106,13 @@
 }
 
 .footer {
+  display: flex;
   background-color: #161619;
+  width: 315px;
+  border-radius: 0 0 5px 5px;
+  border: none;
+}
+
+.footer > a {
+  color: #918E9B;
 }
